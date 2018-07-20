@@ -1,0 +1,17 @@
+Get detailed info on a specific folder
+svn info [folder name] 
+
+See changes, "M" means modified but not committed
+sudo svn status
+
+See changes in an easier manner thanks to grep "*" us a committed change
+svn status -u | grep '*'
+
+Pull code down (like git pull)
+svn up
+
+Add totally new file
+svn add /html/dev/aFile.html  
+
+Commit file
+sudo svn commit --username="myemail@email.com" -m"[ticket id][some helpful description]" myFile.txt
