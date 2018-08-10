@@ -11,7 +11,7 @@ See changes in an easier manner thanks to grep "*" us a committed change
 svn status -u | grep '*'
 
 svn checkout (to grap the code from the repo)
-svn co https://www.someWebsite/someDirectory /someLocalFolder/someChildFolder
+svn co https://www.someWebsite/someDirectory/someLocalFolder/someChildFolder
 
 Pull code down (like git pull), log into the server and do it to pull code up from your local
 svn up
